@@ -5,12 +5,9 @@ import com.theironyard.services.UserRepository;
 import org.h2.tools.Server;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by michaelplott on 10/26/16.
